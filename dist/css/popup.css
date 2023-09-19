@@ -1,0 +1,84 @@
+#anu:hover {
+	opacity: 0.7;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+#imgPop {
+    position: fixed; /* Stay in place */
+    display: block;
+    margin: auto;
+    overflow: auto; /* Enable scroll if needed */
+    max-height: 600px; 
+    max-width: 1100px;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*animation-name: zoom;
+    animation-duration: 0.6s;*/
+}
+
+@media screen and (max-width: 700px) {
+    #imgPop {
+        position: fixed; /* Stay in place */
+	    display: block;
+	    margin: auto;
+	    overflow: auto; /* Enable scroll if needed */
+	    max-width: 95%;
+	    height: auto;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #imgPop {
+        position: fixed; /* Stay in place */
+	    display: block;
+	    margin: auto;
+	    overflow: auto; /* Enable scroll if needed */
+	    max-width: 85%;
+	    height: auto;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (min-width: 750px) {
+    #imgPop {
+        position: fixed; /* Stay in place */
+	    display: block;
+	    margin: auto;
+	    overflow: auto; /* Enable scroll if needed */
+	    max-width: 85%;
+	    height: auto;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+    }
+}
+
+#imgPop { 
+    animation-name: zoomIn;
+    animation-duration: 0.8s;
+}
+
+#klos {
+	position: absolute;
+	top: 40px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#klos:hover,
+#klos:focus {
+	color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
